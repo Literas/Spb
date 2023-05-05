@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
+body {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+header {
+  margin: 0 auto;
+}
+
+.header_up {
+  text-align: center;
+  background-image: url("../img/bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.header_up-info {
+  padding-top: 5rem;
+  padding-bottom: 8rem;
+}
+.header_up-info h1 {
+  font-family: "Roboto", serif;
+  font-weight: 500;
+  font-size: 75px;
+  color: #242424;
+  color: white;
+  line-height: 4rem;
+}
+.header_up-info p {
+  font-family: "Roboto", serif;
+  font-weight: 400;
+  font-size: 12px;
+  color: #242424;
+  color: white;
+  font-size: 12px;
+  letter-spacing: 5px;
+  margin-bottom: 2rem;
+}
+.header_up-btn {
+  background-color: black;
+  padding: 10px 20px;
+  font-family: "Roboto", serif;
+  font-weight: 400;
+  font-size: 12px;
+  color: #242424;
+  color: white;
+  transition: 0.2 ease-in-out;
+}
+.header_up-btn:hover {
+  background-color: rgb(41, 105, 148);
+}
+
+.header_bottom {
+  background-color: black;
+}
+.header_bottom ul {
+  display: flex;
+  margin-top: 0;
+  margin-left: 5rem;
+}
+.header_bottom ul li {
+  padding: 1.5rem 0.5rem 1.5rem 0.5rem;
+  transition: 0.2s ease-in-out;
+}
+.header_bottom ul li a {
+  font-family: "Roboto", serif;
+  font-weight: 400;
+  font-size: 12px;
+  color: #242424;
+  color: white;
+}
+.header_bottom ul li:hover {
+  background-color: rgb(41, 105, 148);
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  margin-bottom: 2rem;
+}
+main img {
+  height: 6rem;
+}
+main .main_text {
+  width: 30rem;
+  font-family: "Roboto", serif;
+  font-weight: 400;
+  font-size: 12px;
+  color: #242424;
+}
+main .main_text-head {
+  font-family: "Roboto", serif;
+  font-weight: 500;
+  font-size: 75px;
+  color: #242424;
+  font-weight: 500;
+  font-size: 20px;
+}
+main .main_text p {
+  text-align: justify;
+}
+
+.footer_text {
+  background-image: url("../img/jumbotron_bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.footer_text-head {
+  font-family: "Roboto", serif;
+  font-weight: 500;
+  font-size: 75px;
+  color: #242424;
+  font-weight: 500;
+  font-size: 20px;
+  color: white;
+}
+.footer_text-main {
+  margin: 0;
+  font-family: "Roboto", serif;
+  font-weight: 400;
+  font-size: 12px;
+  color: #242424;
+  color: white;
+}
+.footer_text-btn {
+  margin-top: 1rem;
+  background-color: rgb(41, 105, 148);
+  padding: 10px 20px;
+  font-family: "Roboto", serif;
+  font-weight: 400;
+  font-size: 12px;
+  color: #242424;
+  color: white;
+  transition: 0.2 ease-in-out;
+}
+.footer_text-btn:hover {
+  background-color: black;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  margin-right: 5rem;
+  padding-top: 10rem;
+  padding-bottom: 12rem;
+  padding-right: 5rem;
+}
+
+.footer_c {
+  background-color: black;
+  font-family: "Roboto", serif;
+  font-weight: 400;
+  font-size: 12px;
+  color: #242424;
+  color: white;
+  padding: 1.5rem 5rem 1.5rem 8rem;
+}/*# sourceMappingURL=style.css.map */
